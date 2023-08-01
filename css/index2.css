@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean');
+@font-face {
+    font-family: 'MYYeongnamnu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/MYYeongnamnu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0; padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    color: black;
+}
+#back {
+    position: fixed; top: 0; left: 0;
+    z-index: -1;
+    width: 100%; height: 100%;
+    background: url(../img/big1.jpg);
+    background-size: 100% 100%;
+    animation: back_ani 10s;
+}
+@keyframes back_ani {
+    0% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+nav {
+    width: 100%; height: 50px;
+    border: 0px solid white;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    animation: nav_ani 0.5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes nav_ani {
+    0% {margin-top: -100px;}
+    100% {margin-top: 20px;}
+}
+nav div {
+    line-height: 50px;
+    color: white;
+    margin-left: 1%;
+    border: 0px solid green;
+    text-align: center;
+}
+nav div:first-child{
+    font-size: 1.3rem; font-weight: bold; font-family: 'hy견고딕';
+    width: 15%;
+    margin-right: 8%;
+}
+nav div:nth-child(6) {
+    width: 10%;
+}
+nav div:nth-child(11) {
+    margin-left: 15%;
+}
+nav div:nth-child(13) {
+    margin-right: 2%;
+}
+nav .wrd {
+    width: 5%;
+    margin-left: 3%;
+}
+nav .icon {
+    width: 3%;
+}
+.arrow {
+    position: fixed; top: 35%; left: 5%;
+    width: 90%; height: 300px;
+    border: 0px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+.arrow .side {
+    width: 2%; height: 50px; line-height: 50px;
+    color: white;
+    font-size: 3rem;
+    border: 0px solid black;
+    margin-top: 125px;
+    cursor: pointer;
+}
+.arrow .left {
+    animation: left_ani 0.7s linear infinite;
+}
+@keyframes left_ani {
+    0% {transform: translateX(15px);}
+    50% {transform: translateX(0px);}
+    100% {transform: translateX(15px);}
+}
+.arrow .right {
+    animation: right_ani 0.7s linear infinite;
+}
+@keyframes right_ani {
+    0% {transform: translateX(-15px);}
+    50% {transform: translateX(0px);}
+    100% {transform: translateX(-15px);}
+}
+.arrow .side:hover {
+    color: aquamarine;
+}
+.arrow .cen {
+    width: 93%; height: 100%;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.arrow .cen li {
+    height: 100%;
+    border: 0px solid red;
+}
+.arrow .cen li:first-child {
+    width: 57%;
+}
+.arrow .cen li:nth-child(2) {
+    width: 39%;
+    opacity: 0.3;
+}
+.arrow .cen li p {
+    border: 0px solid white;
+    color: white;
+}
+.arrow .cen li p span {
+    font-size: 9rem; font-family: 'MYYeongnamnu';
+    color: rgb(194, 3, 194);
+}
+.arrow .cen li p:first-child {
+    font-size: 7rem; font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: -35px 35px 10px #ccc,
+                    -30px 30px 10px black;
+}
+.arrow .cen li p:nth-child(2), p:nth-child(3) {
+    font-size: 1.5rem; font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.arrow .cen li p:nth-child(2):hover {
+    color: aquamarine;
+}
+.arrow .cen li p:nth-child(3):hover {
+    color: aquamarine;
+}
+.dot {
+    width: 45px; height: 45px; line-height: 45px;
+    border: 0px solid white;
+    position: fixed; top: 70%; left: 8%;
+    font-size: 2.5rem;
+    color: white;
+    animation: dot_ani 0.7s linear infinite;
+    cursor: pointer;
+}
+.dot:hover {
+    color: aquamarine;
+}
+@keyframes dot_ani {
+    0% { top: 70%;}
+    50% { top: 73%;}
+    60% { top: 72%;}
+    90% { top: 70.5%;}
+    100% { top: 70%;}
+}
