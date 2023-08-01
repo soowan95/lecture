@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/base.css">
+    <title>Document</title>
+</head>
+<body>
+    <p class="title">
+        이벤드(<span>Event</span>)
+    </p>
+    <div class="big">
+        <img src="event/big1.jpg" alt="">
+    </div>
+    <p class="top">한솥도시락 | 이벤트</p>
+    <ul class="main">
+        <li>
+            <div id="poster">
+                <img id="change" src="event/img1.jpg" alt="">
+            </div>
+        </li>
+        <li>
+            <p id="yes">[8월 매일할인] 요일마다 인기메뉴 매일 할인</p>
+            <div class="info">
+                <div class="tab">
+                    <div><p>이벤트 기간</p></div>
+                    <div><p id="date">2023.08.01~2023.08.31</p></div>
+                </div>
+                <div class="tab">
+                    <div><p>참여대상</p></div>
+                    <div><p id="user">누구나 참여 가능</p></div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <ul class="mini">
+        <li onclick="change.src='event/img1.JPG',yes.innerHTML='[8월 매일할인] 요일마다 인기메뉴 매일 할인',date.innerHTML='2023.08.01~2023.08.31',user.innerHTML='누구나 참여 가능'">
+            <div>
+                <img src="event/img4.jpg" alt="">
+            </div>
+            <p>[8월 매일할인] 요일마다 인기메뉴 매일 할인</p>
+        </li>
+        <li onclick="change.src='event/img2.JPG',yes.innerHTML='[한솥 30주년] 한솥, ESG와 함께 30년',date.innerHTML='2023.07.01~2023.07.31',user.innerHTML='회원만 참여 가능'">
+            <div>
+                <img src="event/img5.jpg" alt="">
+            </div>
+            <p>[한솥 30주년] 한솥, ESG와 함께 30년</p>
+        </li>
+        <li onclick="change.src='event/img3.JPG',yes.innerHTML='[7월 수량한정 신메뉴] \'오리 영양도시락\'',date.innerHTML='2023.07.01~2023.07.31',user.innerHTML='VIP회원만 참여 가능'">
+            <div>
+                <img src="event/img6.jpg" alt="">
+            </div>
+            <p>[7월 수량한정 신메뉴] '오리 영양도시락'</p>
+        </li>
+    </ul>
+</body>
+</body>
+</html>

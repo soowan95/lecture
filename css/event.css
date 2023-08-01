@@ -1,0 +1,99 @@
+.top {
+    margin-left: 30px; margin-top: 50px;
+    width: 300px; height: 50px;
+    border: 0px solid black;
+    font-size: 2rem;
+}
+.main {
+    width: 100%; height: 800px;
+    border: 0px solid red;
+    background: url(../event/big2.jpg);
+    background-size: 100% 100%;
+    display: flex;
+}
+.main li {
+    width: 50%; height: 100%;
+    border: 0px solid red;
+}
+.main li:first-child #poster {
+    top: 50%; left: 15%;
+    width: 500px; height: 800px;
+    border: 0px solid black;
+    position: absolute;
+}
+.main li:first-child #poster img {
+    width: 100%; height: 100%;
+}
+.main li:last-child {
+    width: 30%; height: 80%;
+    margin: 60px 60px 5% 15%;
+    background: #a7845a;
+    color: white;
+}
+.main li:last-child #yes {
+    width: 80%; height: 120px; line-height: 50px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 1px solid #352927;
+}
+.main li:last-child .info {
+    width: 80%; height: 400px;
+    margin-left: 10%;
+    border: 0px solid black;
+}
+.main li:last-child .info .tab {
+    width: 100%; height: 200px;
+    border: 0px solid red;
+    display: flex;
+}
+.main li:last-child .info .tab div:first-child {
+    width: 40%; height: 100%;
+    border: 0px solid green;
+}
+.main li:last-child .info .tab div:first-child p {
+    font-size: 1.2rem; font-weight: bold;
+    width: 100%; height: 40px; line-height: 40px;
+    margin-top: 80px;
+    text-align: center;
+    border-right: 1px solid white;
+}
+.main li:last-child .info .tab div:last-child {
+    width: 60%; height: 100%;
+    border: 0px solid green;
+}
+.main li:last-child .info .tab div:last-child #date {
+    width: 100%; height: 40px; line-height: 40px;
+    margin-top: 80px;
+    text-align: center;
+}
+.main li:last-child .info .tab div:last-child #user {
+    width: 100%; height: 40px; line-height: 40px;
+    margin-top: 80px;
+    text-align: center;
+}
+.mini {
+    margin-left: 5%;
+    width: 90%; height: 450px;
+    border: 0px solid black; 
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.mini li {
+    width: 30%; height: 100%;
+    border: 0px solid red;
+    cursor: pointer;
+}
+.mini li div {
+    width: 100%; height: 350px;
+    border: 0px solid blue;
+}
+.mini li div img {
+    width: 100%; height: 100%;
+}
+.mini li p {
+    width: 100%; height: 100px; line-height: 100px;
+    text-align: center;
+    font-weight: bold; font-size: 1.2rem;
+}

@@ -1,0 +1,83 @@
+.gray {
+    width: 100%; height: 50px; line-height: 50px;
+    border: 0px solid black;
+    color: #b8b1a6;
+    font-size: 1.2rem;
+    background: #e2ddd7;
+    text-indent: 5%;
+}
+.main {
+    width: 100%; height: 800px;
+    display: flex;
+    border: 0px solid black;
+    margin: 0 auto;
+    background: #e2ddd7;
+}
+.main li {
+    width: 45%; height: 100%;
+    font-weight: bold;
+}
+.main li:first-child p{
+    font-size: 2.6rem;
+    text-indent: 12%;
+}
+.main li:last-child {
+    align-items: center;
+}
+.main li:last-child div {
+    border: 0px solid black;
+    margin-left: 15%; margin-top: 50px;
+    width: 70%; height: 60%;
+}
+.main li:last-child div img {
+    width: 100%; height: 100%;
+}
+.line {
+    width: 90%; height: 40px; line-height: 40px;
+    margin-top: 40px; margin-left: 5%;
+    border-left: 2px solid black;
+    font-size: 1.5rem;
+    text-indent: 20px;
+}
+.size {
+    width: 60%; height: 550px;
+    border: 0px solid black;
+    margin: 30px auto;
+}
+.size div {
+    width: 60%; height: 360px;
+    border: 0px solid red;
+    margin-left: 20%;
+    transition: 0.5s;
+}
+.size div img {
+    transform: scale(1.5);
+}
+.size div:hover {
+    transform: scale(0.55);
+}
+.size div:hover .free {
+    font-size: 0;
+    background: none;
+}
+.size p {
+    margin-top: 10px; margin-left: 10%;
+    width: 90%; height: 60px;
+    border: 0px solid black;
+}
+.size p:nth-child(2) {
+    text-align: center; line-height: 60px;
+    font-size: 1.5rem; font-weight: bold;
+}
+.size p:last-child {
+    padding-left: 50px;
+}
+.size div .free {
+    top: 120%; left: 2%;
+    position: absolute;
+    width: 110px; height: 20px;
+    font-size: 0.8rem;
+    color: yellow;
+    background: blue;
+    transition: 0.00000001ms;
+}
