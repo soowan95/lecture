@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/index4.css">
+  <script src="javascript/index4.js"></script>
+  <script src="https://kit.fontawesome.com/aa591c294a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="layout">
+    <button onclick="cel();">가입 완료</button>
+    <button onclick="clo();">닫기</button>
+    <div id="celbr">가입완료를 클릭하세요.</div>
+  </div>
+  <button id="appear" onclick="show();">click</button>
+  <div id="wrap1">
+    국어 <input type="text" id="kor" value="점수를 입력하세요."> <br><br>
+    영어 <input type="text" id="eng" value="점수를 입력하세요."> <br><br>
+    수학 <input type="text" id="mat" value="점수를 입력하세요."> <br>
+    <input type="button" value="결과 보기" id="ok_btn">
+    <div class="box" id="total">0</div>
+    <div class="box" id="average">0</div>
+  </div>
+<!-- ---------------------------------------------------------------- -->
+  <ul id="wrap2">
+    <li></li>
+    <li>
+      수량 : <input type="text" id="count" value="0"> <input type="button" value="+" id="duha"> <input type="button" value="-" id="bba">
+    </li>
+    <li>가격 : 500원</li>
+    <li>
+      <p id="ord">주문</p>
+      <p id="cen">취소</p>
+    </li>
+  </ul>
+  <div id="price">
+    <p>결재 금액은</p>
+    <p id="priInfo">0원 입니다.</p>
+    <p id="priOk">확인</p> 
+    <p id="priClo">닫기</p> 
+  </div>
+<!-- ---------------------------------------------------------------- -->
+<div id="wrap3">
+  <div class="big" style="width: 200px; height: 300px;">
+    <img src="img/img1.jpg" alt="" id="pic" style="width: 100%; height: 100%;">
+  </div>
+  <div class="result">0</div>
+  <input type="button" value="증가하기" class="add">
+  <input type="button" value="감소하기" class="sub">
+</div>
+</body>
+</html>

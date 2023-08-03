@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+#layout {
+  width: 40%; height: 150px;
+  border: 0px solid black;
+  margin-left: 30%;
+}
+button:first-child {
+  position: absolute; top: 35px; left: 680px;
+  width: 100px; height: 40px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+button:nth-child(2) {
+  position: absolute; top: 80px; left: 680px;
+  width: 50px; height: 30px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#celbr {
+  position: absolute; top: 20px; left: 830px;
+  width: 350px; height: 100px; line-height: 100px;
+  border: 0px solid red;
+  text-align: center;
+  font-size: 2rem;
+  color: red;
+}
+#appear {
+  position: absolute; top: 120px; left: 680px;
+  width: 50px; height: 30px;
+}
+/* ---------------------------------------------------- */
+#wrap1 {
+  width: 100%;
+  border: 0px solid red;
+  display: none;
+}
+  input {
+    height: 20px; line-height: 20px;
+    text-align: center;
+  }
+  #ok_btn {
+    margin-top: 10px; margin-left: 150px; margin-bottom: 10px;
+  }
+  .box {
+    width: 210px; height: 50px; line-height: 50px;
+    border: 1px solid black; border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  /* ---------------------------------------------------- */
+#wrap2 {
+  width: 350px; height: 500px;
+  border: 0px solid black;
+}
+  li {
+    width: 100%; height: 70px;
+    border: 0px solid red;
+  }
+  li:first-child {
+    width: 100%; height: 280px;
+    background: url(../img/shoe1.jpg);
+    background-size: 100% 100%;
+  }
+  li:nth-child(2) {
+    text-align: center; line-height: 70px;
+  }
+  li:nth-child(2) input:first-child {
+    width: 50%; height: 30px;
+  }
+  li:nth-child(2) input:nth-child(2), li:nth-child(2) input:nth-child(3) {
+    height: 20px; width: 5%;
+    cursor: pointer;
+  }
+  li:nth-child(3) {
+    width: 95%;
+    margin-right: 5%;
+    text-align: right;
+    line-height: 70px;
+    font-size: 1.2rem;
+  }
+  li:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  li:last-child p {
+    width: 55px; height: 30px; line-height: 30px;
+    border: 0px solid green; border-radius: 5px;
+    font-size: 1.1rem; font-weight: bold;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  li:last-child p:first-child {
+    background: blue;
+  }
+  li:last-child p:nth-child(2) {
+    margin-left: 80px;
+    background: rgb(214, 211, 206);
+  }
+#price {
+  position: absolute; top: 250px; left: 450px;
+  width: 500px; height: 400px;
+  border: 0px solid #696868; border-radius: 10px;
+  background: black;
+  color: white;
+  display: none;
+}
+#price p {
+  border: 0px solid red;
+  text-align: center;
+}
+#price p:first-child {
+  width: 60%; height: 50px; line-height: 50px;
+  margin: 20px auto;
+  font-size: 1.5rem;
+}
+#price p:nth-child(2) {
+  height: 100px; line-height: 100px;
+  font-size: 3rem;
+  margin-top: 60px;
+}
+#price #priOk {
+  margin-left: 400px; margin-top: 80px;
+  width: 50px; height: 30px; line-height: 30px;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+#price p:nth-child(4) {
+  width: 50px; height: 30px; line-height: 30px;
+  margin-left: 400px; margin-top: 10px;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  cursor: pointer;
+  display: none;
+}
